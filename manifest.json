@@ -1,6 +1,6 @@
 {
-	"id": "editing-mode-hotkey",
-	"name": "Editing Mode Hotkey",
+	"id": "obsidian-editing-mode-hotkey",
+	"name": "Editing Mode Hotkey Lala",
 	"version": "1.0.0",
 	"minAppVersion": "0.15.0",
 	"description": "Adds a command and hotkey to toggle the default editing mode (between Live Preview and Source)",

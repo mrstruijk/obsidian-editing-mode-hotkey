@@ -1,10 +1,10 @@
 {
-	"id": "obsidian-editing-mode-hotkey",
-	"name": "Editing Mode Hotkey Lala",
-	"version": "1.0.0",
+	"id": "obsidian-modes-hotkey",
+	"name": "Toggle Read-Source-Preview",
+	"version": "0.0.1",
 	"minAppVersion": "0.15.0",
-	"description": "Adds a command and hotkey to toggle the default editing mode (between Live Preview and Source)",
-	"author": "Signynt",
-	"authorUrl": "https://github.com/Signynt",
+	"description": "Adds a command and hotkey to toggle between Reading View, Source Mode, and Live Preview",
+	"author": "Maarten Struijk Wilbrink",
+	"authorUrl": "https://github.com/mrstruijk",
 	"isDesktopOnly": false
 }

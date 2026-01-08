@@ -1,5 +1,5 @@
 {
-	"id": "obsidian-modes-hotkey",
+	"id": "obsidian-toggle-read-source-preview",
 	"name": "Toggle Read-Source-Preview",
 	"version": "0.0.1",
 	"minAppVersion": "0.15.0",

@@ -9,7 +9,7 @@ export default class ToggleReadSourcePreview extends Plugin {
 		this.addCommand({
 			id: 'toggleReadSourcePreview',
 			name: 'Toggle modes (Source/Live Preview/Reading)',
-			hotkeys: [{ modifiers: ['Mod', 'Shift'], key: 'E' }],
+			// hotkeys: [{ modifiers: ['Mod', 'Shift'], key: 'E' }],
 			callback: () => this.cycleViewModes(),
 		});
 	}

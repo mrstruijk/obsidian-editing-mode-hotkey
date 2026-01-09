@@ -50,10 +50,10 @@ export default class ToggleReadSourcePreview extends Plugin {
 				break;
 		}
 
-		leaf.setViewState(viewState);
+		void Promise.resolve(leaf.setViewState(viewState));
 	}
-
-	private async cycleViewModes() {
+	
+	private cycleViewModes() {
 		const activeView = this.app.workspace.getActiveViewOfType(MarkdownView);
 		if (!activeView) return;
 
@@ -61,11 +61,10 @@ export default class ToggleReadSourcePreview extends Plugin {
 		const nextMode = this.getNextMode(currentMode);
 
 		const shouldUseLivePreview = nextMode === 'live-preview';
-		await this.app.vault.setConfig('livePreview', shouldUseLivePreview);
+		void Promise.resolve(this.app.vault.setConfig('livePreview', shouldUseLivePreview));
 
 		this.app.workspace.iterateAllLeaves(leaf => {
-			this.setViewMode(leaf, nextMode);
+			void this.setViewMode(leaf, nextMode);
 		});
 	}
 }
-

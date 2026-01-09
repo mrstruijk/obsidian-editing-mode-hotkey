@@ -1,7 +1,6 @@
 {
 	"id": "toggle-read-source-preview",
 	"name": "Toggle Read-Source-Preview",
-	"version": "0.0.1",
 	"minAppVersion": "0.15.0",
 	"description": "Adds a command and hotkey to toggle between Reading View, Source Mode, and Live Preview.",
 	"author": "Maarten Struijk Wilbrink",

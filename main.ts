@@ -39,6 +39,8 @@ export default class ToggleReadSourcePreview extends Plugin {
 		// Only change markdown views
 		if (viewState.type !== 'markdown') return;
 
+		if (!viewState.state) return;
+
 		switch (mode) {
 			case 'reading':
 				viewState.state.mode = 'preview';

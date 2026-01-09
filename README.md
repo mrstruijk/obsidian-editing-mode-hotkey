@@ -7,9 +7,7 @@ This command cycles through the modes each time you press it. These changes will
 Search for 'Toggle Modes (Source/Live Preview/Reading)'
 
 ### Via hotkey
-The hotkey defaults to `Cmd/Ctrl` + `Shift` + `E`. 
-
-You can change it in the 'Hotkeys' section of Obsidian. 
+You can set a hotkey in the 'Hotkeys' section of Obsidian. 
 
 ### Via GUI button
 

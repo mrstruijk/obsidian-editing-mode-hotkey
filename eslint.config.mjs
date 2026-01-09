@@ -1,3 +1,4 @@
+
 // eslint.config.mjs
 import tsparser from "@typescript-eslint/parser";
 import { defineConfig } from "eslint/config";
@@ -7,13 +8,13 @@ export default defineConfig([
   ...obsidianmd.configs.recommended,
   {
     files: ["**/*.ts"],
+    ignores: ["main.js", "dist/**"], // <-- files/folders to ignore
     languageOptions: {
       parser: tsparser,
       parserOptions: { project: "./tsconfig.json" },
     },
     rules: {
-      // override rules if you want
-      "obsidianmd/sample-names": "off", // safe to disable
+      "obsidianmd/sample-names": "off",
     },
   },
 ]);
